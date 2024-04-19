@@ -71,15 +71,6 @@ def card_receive_event_handler(req_data: MessageReceiveEvent):
     return jsonify()
 
 
-# @event_manager.register("im.chat.updated_v1")
-# def chat_update_receive_event_handler(req_data: MessageReceiveEvent):
-#     sender_id = req_data.event.sender.sender_id
-
-#     print(sender_id)
-#     print("群配置修改")
-#     return jsonify()
-
-
 @app.errorhandler
 def msg_error_handler(ex):
     logging.error(ex)

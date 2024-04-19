@@ -57,17 +57,6 @@ class MessageApiClient(object):
             "msg_type": "interactive",
             "content": content,
         }
-        # # 折线图
-        # elif eval(content)["text"] == "5":
-        #     content = value.content4
-
-        #     content = json.dumps(content)
-        #     req_body = {
-        #         "receive_id": receive_id,
-        #         "msg_type": "interactive",
-        #         "content": content,
-        #     }
-
         resp = requests.post(url=url, headers=headers, json=req_body)
         MessageApiClient._check_error_response(resp)
 

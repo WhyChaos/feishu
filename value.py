@@ -346,7 +346,6 @@ content3 = {
                 "text_align": "left",
                 "text_size": "normal",
             },
-            {"tag": "hr"},
             # {
             #     "tag": "markdown",
             #     "content": "**参考**\n[1][什么是CRM系统？它的作用是什么？ - 知乎](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)\n[2][什么是 CRM？| Oracle 中国](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)\n[3][CRM系统的整体功能设计 | 人人都是产品经理](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)\n[3][高品质开源商城系统-CRMEB官网](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)",
@@ -355,7 +354,7 @@ content3 = {
             # },
             {
                 "tag": "collapsible_panel",  # 折叠面板的标签。
-                "expanded": True,  # 面板是否展开。默认值 false。
+                "expanded": False,  # 面板是否展开。默认值 false。
                 "background_color": "grey",  # 折叠面板的背景色，默认为透明
                 "header": {
                     # 折叠面板的标题设置。
@@ -388,7 +387,7 @@ content3 = {
                     # 此处可添加各个组件的 JSON 结构。暂不支持表单（form）组件。
                     {
                         "tag": "markdown",
-                        "content": "[1][什么是CRM系统？它的作用是什么？ - 知乎](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)\n[2][什么是 CRM？| Oracle 中国](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)\n[3][CRM系统的整体功能设计 | 人人都是产品经理](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)\n[3][高品质开源商城系统-CRMEB官网](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)",
+                        "content": "[1]<a href='https://open.feishu.cn'>什么是CRM系统？它的作用是什么？ - 知乎</a>[2]<a href='https://open.feishu.cn'>什么是 CRM？| Oracle 中国 </a>\n[3][CRM系统的整体功能设计 | 人人都是产品经理](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)\n[3][高品质开源商城系统-CRMEB官网](https:#open.feishu.cn/document/server-docs/im-v1/message-reaction/emojis-introduce)",
                     }
                 ],
             },
